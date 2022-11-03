@@ -36,7 +36,7 @@ void pop1(int stack[])
 
 void pop2(int stack[])
  {
-  if(top2>size)
+  if(top2>size-1)
    printf("stack underflow\n");
   else
    printf("%d\n",stack[top2++]);
